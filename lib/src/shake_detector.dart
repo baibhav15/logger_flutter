@@ -23,10 +23,10 @@ class ShakeDetector {
 
   ShakeDetector({
     this.onPhoneShake,
-    this.shakeThresholdGravity = 1.25,
+    this.shakeThresholdGravity = 2.5,
     this.minTimeBetweenShakes = 160,
     this.shakeCountResetTime = 1500,
-    this.minShakeCount = 2,
+    this.minShakeCount = 10,
   });
 
   /// Starts listening to accerelometer events
